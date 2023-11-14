@@ -7,6 +7,17 @@ import { Box, Container } from "@mui/material";
 function App() {
   return (
     <>
+      <Box
+        component="Header"
+        sx={{
+          bgcolor: "primary.main",
+          padding: "2rem",
+          borderBottom: "1px dashed grey",
+        }}
+      >
+        {" "}
+        Hello
+      </Box>
       <Container maxWidth={"md"}>
         <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }} />
       </Container>
